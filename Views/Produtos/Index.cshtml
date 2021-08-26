@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AspCoreHttpTestJuniorElian.Models.Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<h2>Listagem de Produtos</h2>
+
+<p>
+    <a asp-action="Create">Novo Produto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Preço
+            </th>
+            <th>
+                Quantidade
+            </th>
+            <th>
+                Valor total
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qtde)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorEstoque)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProdutoID">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.ProdutoID">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProdutoID">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

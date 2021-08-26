@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAr6grBJR6j0C7Q5CVaVlnIgAAAAACAAAAAAAQZgAAAAEAACAAAABMKUv2MhwnWFQKGQxU/Mq0CG8hcUNwbjdzZ0EqqdA7QAAAAAAOgAAAAAIAACAAAABlZc7wCW5u60kmfIszipGNrfKS5aa1JF34L7SU5epRlYAAAACfUMuueFAxVJpS3fOX7kyMYG9Gw7DgG7J2c6UUGXh6N5usyAbAYRbVHLtEmFauw0CQ63Z8OgOZzn0ATIhAy1cfEqvPlyv8eyg5WOvC3rZjGbVrdw2J47QgrEoaY3sc0vkmoy9Wb397NZXBGjfJLS5KhqV/fmbbu1pbBHQsx5GGykAAAADyVyULQYkzFS9ttD22O4bYnXUg38xSSnym8dTQlqqZU9ecUkkMCx9WpzgiADMLuvvhyKWfbFGLW1Rznh0lyaic</EncryptedPassword>
+    <History>True|2021-08-26T03:44:53.4223116Z;True|2021-08-26T00:33:34.0730614-03:00;True|2021-08-26T00:02:03.4633264-03:00;True|2021-08-25T21:14:50.4019235-03:00;True|2021-08-25T21:07:14.4932901-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="ConnDB" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:aspcorehttptestjunioreliandbserver.database.windows.net,1433;Initial Catalog=AspCoreHttpTestJuniorElian_db;User Id=elian@aspcorehttptestjunioreliandbserver;Password=*081299Eloy*" />
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConnDB">
+      <Value>Data Source=tcp:aspcorehttptestjunioreliandbserver.database.windows.net,1433%3bInitial Catalog=AspCoreHttpTestJuniorElian%3bUser Id=elian%40aspcorehttptestjunioreliandbserver%3bPassword=%2a081299Eloy%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="AspCoreHttpTestJuniorElian.Data.AspCoreHttpTestJuniorElianContext">
+      <Value>Data Source=tcp:aspcorehttptestjunioreliandbserver.database.windows.net,1433%3bInitial Catalog=AspCoreHttpTestJuniorElian%3bUser Id=elian%40aspcorehttptestjunioreliandbserver%3bPassword=%2a081299Eloy%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

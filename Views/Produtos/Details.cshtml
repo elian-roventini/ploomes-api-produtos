@@ -1,0 +1,42 @@
+﻿@model AspCoreHttpTestJuniorElian.Models.Produto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nome:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            Preço:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+        <dt>
+            Quantidade:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Qtde)
+        </dd>
+        <dt>
+            Valor total:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ValorEstoque)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ProdutoID">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>
