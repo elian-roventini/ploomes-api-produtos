@@ -11,7 +11,7 @@ Este projeto foi fundamental para o meu desenvolvimento na linguagem C#, uma vez
 ## Recomendações
 ![Badge](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 
-Para está API, é utilizado HTTP para a realização das requisições. Recomendo fortemente a utilização do Framework `Postman` para realizar as requisições e testes.
+Para está API, é utilizado `HTTP` para a realização das requisições. Recomendo fortemente a utilização do Framework `Postman` para realizar as requisições e testes.
 Além disso, o formato de retorno é `JSON`.
 
 Para todas as requisições, você deve utilizar a URL abaixo.
