@@ -8,14 +8,10 @@ A aplicação foi desenvolvida em .NET C# versão 2.1, utilizando `Entity Framew
 
 Este projeto foi fundamental para o meu desenvolvimento na linguagem C#, uma vez que não tinha experiência concreta com criação de API, e com isto pude ver na prática como funciona API. Meus estudos continuam relacionados a criação de API, utilizei do Framework para ganhar tempo e conseguir realizar a atividade.
 
-## Pré-requisitos
-
-Antes de começar, caso você queira realizar os testes, você precisará ter instalado em sua máquina o Framework [Postman](https://www.postman.com).
-
-### Recomendações
+## Recomendações
 ![Badge](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 
-Para está API, utilize `Obrigatoriamente` HTTP para a realização das requisições. Recomendo fortemente a utilização do Framework `Postman` (deixei o link do site oficial acima) para realizar as requisições e testes.
+Para está API, é utilizado HTTP para a realização das requisições. Recomendo fortemente a utilização do Framework `Postman` para realizar as requisições e testes.
 Além disso, o formato de retorno é `JSON`.
 
 Para todas as requisições, você deve utilizar a URL abaixo.
