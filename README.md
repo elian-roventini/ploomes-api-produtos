@@ -2,7 +2,7 @@
 
 A API Produtos Ploomes é uma API básica de CRUD, onde é possível realizar através de API REST a obtenção e envio de dados para um serviço de `Produtos`. Com o banco de dados SQL Server hospedado no Microsoft Azure.
 
-Além disso, a aplicação está hospedada [aqui](https://aspcorehttptestjuniorelian.azurewebsites.net) no Microsoft Azure caso queira ver uma interface gráfica em conjunto do  acontecendo as coisas (e por lá você consegue algumas informações minhas também).
+Além disso, a aplicação está hospedada [aqui](https://aspcorehttptestjuniorelian.azurewebsites.net) no Microsoft Azure caso queira ver uma interface gráfica em conjunto do que está acontecendo (e por lá você consegue algumas informações minhas também).
 
 A aplicação foi desenvolvida em .NET C# versão 2.1, utilizando `Entity Framework` para a construção da interface gráfica com SQL Server e a API. Criada com o intuito de satisfazer o teste prático para a empresa Ploomes, onde era necessário construir uma API.
 
